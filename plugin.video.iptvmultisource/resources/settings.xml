@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+    <category label="Playlists">
+        <setting id="m3u_urls" type="text" label="M3U URLs (comma-separated)" default="https://iptv-org.github.io/iptv/index.m3u"/>
+    </category>
+</settings>

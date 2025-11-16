@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<addon id="repository.cooltv" name="CoolTV Repository" version="1.0.0" provider-name="Debe2025">
+    <extension point="xbmc.addon.repository">
+        <info compressed="false">https://raw.githubusercontent.com/Debe2025/cooltv/main/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/Debe2025/cooltv/main/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Debe2025/cooltv/main/zips</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>CoolTV IPTV Repository</summary>
+        <assets><icon>icon.png</icon><fanart>fanart.jpg</fanart></assets>
+    </extension>
+</addon>

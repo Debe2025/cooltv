@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.iptvmultisource" name="IPTV MultiSource" version="1.0.0" provider-name="Debe2025">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.requests" version="2.25.1"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py"><provides>video</provides></extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Play M3U playlists</summary>
+        <assets><icon>resources/icon.png</icon><fanart>resources/fanart.jpg</fanart></assets>
+    </extension>
+</addon>
